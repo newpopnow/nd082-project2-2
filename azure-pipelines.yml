@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: 'myazdevops'
 
   # Web app name
-  webAppName: 'webapp0321'
+  webAppName: 'azdevops0321'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
