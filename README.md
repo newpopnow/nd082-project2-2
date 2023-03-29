@@ -3,7 +3,7 @@
 <TODO: complete this with an overview of your project>
 
 Diagram:
-![alt](/img/diagram.png)
+![alt](/img/diagram.drawio.png)
 ## Project Plan
 <TODO: Project Plan
 
