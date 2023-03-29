@@ -2,10 +2,6 @@
 
 In this project, you will build an Azure App Service from Python, Continous Intergration by Github Actions and Continous Delivery by Azure Devops Pipelines
 
-Diagram:
-
-![alt](/img/diagram.drawio.png)
-
 ## Project Plan
 
 * Trello board: https://trello.com/invite/b/HEmxDjEt/ATTI7c5939b49a59653fffed9068da7d1550299A572E/nd082-project2
@@ -15,6 +11,10 @@ Diagram:
 
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
+
+Diagram:
+
+![alt](/img/diagram.drawio.png)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
