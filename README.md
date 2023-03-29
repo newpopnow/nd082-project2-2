@@ -1,14 +1,15 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+In this project, you will build an Azure App Service from Python, Continous Intergration by Github Actions and Continous Delivery by Azure Devops Pipelines
 
 Diagram:
+
 ![alt](/img/diagram.drawio.png)
+
 ## Project Plan
-<TODO: Project Plan
 
 * Trello board: https://trello.com/invite/b/HEmxDjEt/ATTI7c5939b49a59653fffed9068da7d1550299A572E/nd082-project2
-* A link to a spreadsheet that includes the original and final project plan>
+* Project plan: <>
 
 ## Instructions
 
@@ -21,9 +22,15 @@ Diagram:
 
 * Project cloned into Azure Cloud Shell
 
+![alt](/img/project_cloned_to_azure_cloud_shell.png)
+
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
+![alt](/img/venv_passing_test_Makefile.png)
+
 * Output of a test run
+
+![alt](/img/github_action_pass.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
