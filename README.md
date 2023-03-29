@@ -2,10 +2,12 @@
 
 <TODO: complete this with an overview of your project>
 
+Diagram:
+![alt](/img/diagram.png)
 ## Project Plan
 <TODO: Project Plan
 
-* A link to a Trello board for the project
+* Trello board: https://trello.com/invite/b/HEmxDjEt/ATTI7c5939b49a59653fffed9068da7d1550299A572E/nd082-project2
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
