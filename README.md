@@ -39,9 +39,13 @@ source venv/bin/activate
 
 ![alt](/img/github_action_pass.png)
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+* Successful deploy of the project in Azure Pipelines.
+
+![alt](/img/az_pipelines_run.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
+
+![alt](/img/az_webapp_running.png)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.
 
