@@ -24,6 +24,13 @@ Diagram:
 
 ![alt](/img/project_cloned_to_azure_cloud_shell.png)
 
+Run command to create Virtual Enviroment
+```
+cd /nd082-project2-2 #change directory to project folder
+python3 -m venv venv
+source venv/bin/activate
+```
+
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
 ![alt](/img/venv_passing_test_Makefile.png)
@@ -36,18 +43,20 @@ Diagram:
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
+* Successful prediction from deployed flask app in Azure Cloud Shell.
 
 ```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
+./make_predict_azure_app.sh
 ```
 
-* Output of streamed log files from deployed application
+![alt](/img/make_prediction.png)
 
-> 
+* Output of streamed log files from deployed application
+```
+az webapp log tail
+```
+
+![alt](/img/az_webapp_log_tail.png)
 
 ## Enhancements
 
