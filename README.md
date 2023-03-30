@@ -64,6 +64,9 @@ az webapp log tail
 
 ![alt](/img/az_webapp_log_tail.png)
 
+* Locust load test
+![alt](/img/locust_load_test.png)
+
 ## Enhancements
 
 <TODO: A short description of how to improve the project in the future>
