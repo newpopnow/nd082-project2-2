@@ -28,7 +28,9 @@ Architectural Diagram
 ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub
 ```
+Paste ssh key to Github Setting > SSH and GPG keys
 
+![alt](/img/gh_add_sshkey.png)
 
 * To clone source code into Azure Cloud Shell
 
