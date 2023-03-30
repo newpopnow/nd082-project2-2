@@ -6,8 +6,8 @@ In this project, you will build an Web app from Python then deploy to PaaS - Azu
 
 ## Project Plan
 
-* Trello board: https://trello.com/invite/b/HEmxDjEt/ATTI7c5939b49a59653fffed9068da7d1550299A572E/nd082-project2
-* Project plan: <>
+* Trello board: https://trello.com/b/HEmxDjEt/nd082-project2
+* Project plan: [Spreadsheet](/nd082-project2_planning.xlsx)
 
 ## Instructions
 
@@ -21,6 +21,14 @@ Architectural Diagram
 - Azure App Service: PaaS which host the application
 
 ### Let's start
+* Create a Github repos
+
+* Connect Azure Cloud shell to Github account by ssh keypair
+```
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub
+```
+
 
 * To clone source code into Azure Cloud Shell
 
@@ -42,6 +50,8 @@ source venv/bin/activate
 ![alt](/img/venv_passing_test_Makefile.png)
 
 * Setup Github Actions workflow and test the code
+
+![alt](/img/gh_actions_workflow.png)
 
 ![alt](/img/github_action_pass.png)
 
