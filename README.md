@@ -2,7 +2,7 @@
 
 # Overview
 
-In this project, you will build an Azure App Service from Python, Continous Intergration by Github Actions and Continous Delivery by Azure Devops Pipelines
+In this project, you will build an Web app from Python then deploy to PaaS - Azure App Service, Continous Intergration by Github Actions and Continous Delivery by Azure Devops Pipelines
 
 ## Project Plan
 
@@ -12,17 +12,24 @@ In this project, you will build an Azure App Service from Python, Continous Inte
 ## Instructions
 
 <TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
-
-Diagram:
+* Architectural Diagram
 
 ![alt](/img/diagram.drawio.png)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+- Github: Source code repository
+- Github Actions: Continuous Intergration (CI)
+- Azure Devops Pipelines: Continous Delivery (CD)
+- Azure App Service: PaaS which host the application
+
+### Let's start
 
 * Project running on Azure App Service
 
-* Project cloned into Azure Cloud Shell
+* To clone source code into Azure Cloud Shell
+
+```
+git clone https://github.com/newpopnow/nd082-project2-2.git
+```
 
 ![alt](/img/project_cloned_to_azure_cloud_shell.png)
 
@@ -33,7 +40,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+* Passing tests that are displayed after running the `make all` command
 
 ![alt](/img/venv_passing_test_Makefile.png)
 
@@ -41,11 +48,7 @@ source venv/bin/activate
 
 ![alt](/img/github_action_pass.png)
 
-* Successful deploy of the project in Azure Pipelines.
-
-![alt](/img/az_pipelines_run.png)
-
-* Running Azure App Service from Azure Pipelines automatic deployment
+* Running Azure App Service by script `commands.sh`
 
 ![alt](/img/az_webapp_running.png)
 
@@ -64,14 +67,23 @@ az webapp log tail
 
 ![alt](/img/az_webapp_log_tail.png)
 
+
+
+* Successful deploy of the project in Azure Pipelines.
+
+![alt](/img/az_pipelines_run.png)
+
+
+
+
+
 * Locust load test
 On local machine, run following
 ```
 pip install locust
 locust
 ```
-Open locust interface at http://localhost:8089
-Configure and start load test
+Open locust interface at http://localhost:8089, configure and start load test
 
 ![alt](/img/locust_new_load_test.png)
 
@@ -79,7 +91,7 @@ Configure and start load test
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+Try to package and run the app in Kubernetes enviroment
 
 ## Demo 
 
