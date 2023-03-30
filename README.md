@@ -11,8 +11,7 @@ In this project, you will build an Web app from Python then deploy to PaaS - Azu
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram
+Architectural Diagram
 
 ![alt](/img/diagram.drawio.png)
 
@@ -22,8 +21,6 @@ In this project, you will build an Web app from Python then deploy to PaaS - Azu
 - Azure App Service: PaaS which host the application
 
 ### Let's start
-
-* Project running on Azure App Service
 
 * To clone source code into Azure Cloud Shell
 
@@ -48,11 +45,11 @@ source venv/bin/activate
 
 ![alt](/img/github_action_pass.png)
 
-* Running Azure App Service by script `commands.sh`
+* Running Azure App Service by script `commands.sh`, access Web URL which shown in console
 
 ![alt](/img/az_webapp_running.png)
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.
+* Run the prediction from deployed flask app in Azure Cloud Shell.
 
 ```bash
 ./make_predict_azure_app.sh
@@ -67,15 +64,13 @@ az webapp log tail
 
 ![alt](/img/az_webapp_log_tail.png)
 
-
-
 * Successful deploy of the project in Azure Pipelines.
 
 ![alt](/img/az_pipelines_run.png)
 
+* Project running on Azure App Service
 
-
-
+![alt](/img/azure_web_app_deployed.png)
 
 * Locust load test
 On local machine, run following
