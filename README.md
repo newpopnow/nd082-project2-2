@@ -30,7 +30,7 @@ git clone https://github.com/newpopnow/nd082-project2-2.git
 
 ![alt](/img/project_cloned_to_azure_cloud_shell.png)
 
-Run command to create Virtual Enviroment
+* To create Virtual Enviroment, run
 ```
 cd /nd082-project2-2 #change directory to project folder
 python3 -m venv venv
@@ -41,7 +41,7 @@ source venv/bin/activate
 
 ![alt](/img/venv_passing_test_Makefile.png)
 
-* Output of a test run
+* Setup Github Actions workflow and test the code
 
 ![alt](/img/github_action_pass.png)
 
