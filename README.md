@@ -65,6 +65,16 @@ az webapp log tail
 ![alt](/img/az_webapp_log_tail.png)
 
 * Locust load test
+On local machine, run following
+```
+pip install locust
+locust
+```
+Open locust interface at http://localhost:8089
+Configure and start load test
+
+![alt](/img/locust_new_load_test.png)
+
 ![alt](/img/locust_load_test.png)
 
 ## Enhancements
