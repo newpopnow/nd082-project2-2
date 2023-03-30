@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/newpopnow/nd082-project2-2/actions/workflows/main.yml/badge.svg)](https://github.com/newpopnow/nd082-project2-2/actions/workflows/main.yml)
+
 # Overview
 
 In this project, you will build an Azure App Service from Python, Continous Intergration by Github Actions and Continous Delivery by Azure Devops Pipelines
