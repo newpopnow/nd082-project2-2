@@ -102,5 +102,5 @@ Try to package and run the app in Kubernetes enviroment
 
 ## Demo 
 
-YouTube screen cast: (https://youtu.be/zue4gAtzCSg)
+YouTube screen cast: (https://youtu.be/EdiOi64tka8)
 
